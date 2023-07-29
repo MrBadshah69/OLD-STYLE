@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+nav ul li {
+    float: left;
+    padding: 16px 10px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ff0000;
+}
+
+.logo {
+    float: left;
+    margin: 16px 30px;
+    font-weight: 600;
+}
+
+nav {
+    overflow: hidden;
+    background-color: whitesmoke;
+    margin-left: 155px;
+    margin-right: 250px;
+}
+
+header {
+    height: 100px;
+    position: fixed;
+    background-color: teal;
+    width: 1240px;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+li:hover:not(.active) {
+    background-color: silver;
+}
+
+li.active {
+    background-color: slategray;
+}
+
+.l {
+    color: #ff0000;
+}
+
+div.head {
+    margin: 0 20px;
+}
+
+.box1 {
+    margin-top: 10px;
+    background-color: wheat;
+    color: white;
+    width: 200px;
+    height: 200px;
+    padding: 10px 30px;
+}
+
+.box2 {
+    padding: 10px 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: wheat;
+    color: white;
+    width: 200px;
+    height: 200px;
+}
+
+.box3 {
+    padding: 10px 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: wheat;
+    color: white;
+    width: 200px;
+    height: 200px;
+}
+.box4 {
+    padding: 10px 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: wheat;
+    color: white;
+    width: 200px;
+    height: 200px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: royalblue;
+    z-index: 1;
+    width: 50%;
+    height: 1000px;
+    position: relative;
+    top: 100px;
+}
+
+.icon {
+    position: fixed;
+    left: 90%;
+    z-index: 3;
+    bottom: 2px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.Y{
+    color:crimson;
+}
